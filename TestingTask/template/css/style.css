@@ -51,21 +51,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-img.border {
-	border: 6px solid #EEE7DF;
-}
-
-img.alignleft {
-	float: left;
-	margin-right: 25px;
-}
-
-img.alignright {
-	float: right;
-}
-
-img.aligncenter {
-	margin: 0px auto;
+.foorm {
+	border: 2px solid Grey;
 }
 
 #wrapper {

@@ -10,6 +10,9 @@ class NewsController {
 		$newsList = array();
 		$newsList = News::getNewsList();
 
+		$newsList2 = array();
+		$newsList2 = InfoState::getStateList();
+
 		require_once(ROOT . '/views/news/index.php');
 
 		return true;
